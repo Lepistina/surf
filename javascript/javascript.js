@@ -6,5 +6,11 @@ $(function () {
     $('.carousel').carousel({
         interval: 2000
     })
+    
+     $('#navigation li a').on('click', function(){
+                if(window.innerWidth < 768){
+                    $(".navbar-toggle").click()
+                }
+            });
 
 });

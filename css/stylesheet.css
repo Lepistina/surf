@@ -1,285 +1,464 @@
 /* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
+
 .header,
 .marketing,
 .footer {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-
 /* Custom page header */
+
 .header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
 }
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
 
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
 /* Custom page footer */
+
 .footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {
-  margin: 30px 0;
+    margin: 30px 0;
 }
-
 /* Main marketing message and sign up button */
+
 .jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
 }
+
 .jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
+    padding: 14px 24px;
+    font-size: 21px;
 }
-
 /* Supporting marketing content */
+
 .marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
+    margin: 40px 0;
 }
 
+.marketing p + h4 {
+    margin-top: 28px;
+}
 /* Responsive: Portrait tablets and up */
+
 @media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+    /* Remove the padding we set earlier */
+    
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    
+    .jumbotron {
+        border-bottom: 0;
+    }
 }
 /* ######################################################## */
-
-
 /* Main styles */
 
-p, li, span{
+p,
+li,
+span {
     font-family: 'Libre Baskerville', serif;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    word-spacing: 2px;
+}
 
 h1 {
     font-family: 'Oxygen', sans-serif;
-    margin-bottom: 30px;}
+    margin-bottom: 30px;
+}
 
-h2, h3, h4{
-    font-family: 'Droid Sans', sans-serif;}
+h2,
+h3,
+h4 {
+    font-family: 'Droid Sans', sans-serif;
+}
 
-h4{
-    font-size: 20px;}
+h4 {
+    font-size: 20px;
+}
 
-.padding-md{
-     padding-bottom: 40px;}
+.padding-md {
+    padding-bottom: 40px;
+}
+
+.padding-lg {
+    padding-bottom: 60px;
+}
+.margin-md{
+    margin-bottom: 40px;}
+
+.margin-lg{
+    margin-bottom: 60px;}
+
 
 
 /* navigation */
 
-.navbar-brand{
+.navbar-brand {
     color: #000;
-    font-size: 20px;}
+    font-size: 20px;
+}
 
-.navbar-brand a{
+.navbar-brand a {
     line-height: 40px;
     color: #4b494f;
     font-size: 24px;
-    display: inline-block;}
+    display: inline-block;
+}
 
-#navigation li a{
+#navigation li a {
     color: black;
-    text-shadow: 2px 2px 8px white;}
+    text-shadow: 2px 2px 8px white;
+}
 
-#navbar{
-     background: white;
-     border-bottom: 2px solid #A8BAB9;}
+#navbar {
+    background: white;
+    border-bottom: 2px solid #A8BAB9;
+}
 
-.nav>li>a:focus, .nav>li>a:hover{
-     background-color: #98AABF;}
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: #98AABF;
+}
 
-ul{
-    list-style-type: none;}
-
+ul {
+    list-style-type: none;
+}
 /*      NEDIA QUERIES     */
 
-@media (max-width: 340px){
-    .navbar-brand  {
-        margin-top: 8px;}
+@media (max-width: 340px) {
+    .navbar-brand {
+        margin-top: 8px;
+    }
 }
 
-@media (min-width: 768px){
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 0px;} 
+@media (min-width: 768px) {
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
 }
-
-
 /* image-carousel */
 
-.carousel-control .fa-chevron-left{
+.carousel-control .fa-chevron-left {
     position: absolute;
     top: 50%;
-    z-index: 5;}
+    z-index: 5;
+}
 
-.carousel-control .fa-chevron-right{
+.carousel-control .fa-chevron-right {
     position: absolute;
     top: 50%;
-    z-index: 5;}
+    z-index: 5;
+}
 
-.item{
-    margin-top: 40px;}
+.item {
+    margin-top: 40px;
+}
 
-.carousel-caption{
+.carousel-caption {
     padding-bottom: 0px;
     padding-top: 0px;
-    text-shadow: 2px 2px 10px black;}
+    text-shadow: 2px 2px 10px black;
+}
 
-#carousel-1 p{
-       font-weight: 300;
-       font-size: 20px;}
-
+#carousel-1 p {
+    font-weight: 300;
+    font-size: 20px;
+}
 /*   MEDIA QUERIES      */
 
-@media (max-width: 930px){
-    #carousel-1 p{
-        font-size: 16px;}
-    
-     #carousel-1 h2{
-         font-size: 25px;}
-    
-    #action h2{
-        font-size: 25px;}
-    p{
-        font-size: 12px;}
+@media (max-width: 930px) {
+    #carousel-1 p {
+        font-size: 16px;
+    }
+    #carousel-1 h2 {
+        font-size: 25px;
+    }
+    #action h2 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 12px;
+    }
 }
 
-@media (max-width: 930px){
-     .section-header{
-        font-size: 32px;}
-    
-    .package h2{
-         font-size: 25px;}
+@media (max-width: 930px) {
+    .section-header {
+        font-size: 32px;
+    }
+    .package h2 {
+        font-size: 25px;
+    }
 }
 
-@media (max-width: 644px){
-    #carousel-1 p{
+@media (max-width: 644px) {
+    #carousel-1 p {
         display: none;
-        }
-    
-     #carousel-1 h2{
-         font-size: 20px;
-         margin-bottom: 20px;}
-    
-    #action h2{
-        font-size: 20px;}
-    
-    .navbar-brand{
-        font-size: 16px;}
-    p, li{
-        font-size: 12px;}
-    .btn{
-        font-size: 10px;}
-    .section-header{
-        font-size: 28px;}
-    h3{
-        font-size: 18px;}
-    .package h2{
-         font-size: 20px;}
-     .package h4{
-         font-size: 14px;}
-    #activities h2{
-        font-size: 20px;}
-    #footer h4{
-        font-size: 14px;}
-    #footer span, #footer abbr, #footer div{
-        font-size: 12px;}
+    }
+    #carousel-1 h2 {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    #action h2 {
+        font-size: 20px;
+    }
+    .navbar-brand {
+        font-size: 16px;
+    }
+    p,
+    li {
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+    .section-header {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .package h2 {
+        font-size: 20px;
+    }
+    .package h4 {
+        font-size: 14px;
+    }
+    #activities h2 {
+        font-size: 20px;
+    }
+    #footer h4 {
+        font-size: 14px;
+    }
+    #footer span,
+    #footer abbr,
+    #footer div {
+        font-size: 12px;
+    }
 }
 
+@media (max-width: 767px) {
+    ul {
+        padding-left: 0px;
+    }
+    #navigation li a{
+       padding-bottom: 0px;
+       padding-top: 0px;}
+}
 /* action */
 
-#action{
-    background-color: #fbfbfc;}
+#action {
+    background-color: #fbfbfc;
+}
+/* Surf Lessons*/
 
+.green {
+    color: green;
+}
 
-/* Lessons*/
+.black {
+    color: black;
+}
 
-.green{
-  color: green;} 
+.img-responsive {
+    border: 2px solid black;
+}
 
-.black{
-    color: black;}
+h3 {
+    margin-bottom: 20px;
+}
+/*     MEDIA QUERY     */
 
-
-/*  surf classes */
-
-.img-responsive{
-    border: 2px solid black;}
-    
-h3{
-    margin-bottom: 20px;}
-    
-    
-/*     MEDIA QUERY     */ 
-
-@media (max-width: 766px ){
-    .left{
-        text-align: left;}
-    .hvr-grow-rotate{
-        margin-top: 10px;}
+@media (max-width: 766px) {
+    .left {
+        text-align: left;
     }
-    
-    
-/*   PACKAGES   */
-.package h4{
-    font-size: 20px;}
+    .hvr-grow-rotate {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 412px){
+    #surf-lessons-text{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+/*  SURF PACKAGES   */
+
+#packages h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#packages ul{
+    padding-left: 0px;}
+
+#packages {
+    background-attachment: fixed;
+    background-size: cover;
+    background: url(../pics/horizon.jpg);
+    position: relative;
+    overflow: hidden;
+}
+
+.package{
+    margin-bottom: 40px;
+    margin-top: 40px;}
+
+.package-cost{
+    font-weight: 600;
+    margin-bottom: 20px;}
+
+#packages ul{
+    margin-bottom: 30px;}
 
 /*  MEDIA QUERIES  */
 
-@media (max-width: 930px){
-    .package h4{
-        font-size: 16px;}
+@media (max-width: 930px) {
+    .package h4 {
+        font-size: 16px;
+    }
 }
-    
-    
+
+@media (max-width: 375px) {
+    .package p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 320px) {
+#packages h2{
+        font-size: 25px;}
+}
 /*   ACTIVITIES  */
-    
 
-    
-/*  MEDIA QUERIES  */  
+#activities h2{
+   margin-bottom: 20px;}
 
-@media (max-width: 930px){
-   #activities h2{
-    font-size: 25px;} 
+ #activities-button{
+     margin-top: 20px;}
+
+#activities img{
+    margin-right: 20px;}
+ 
+hr{
+       border-top: 1px solid #ADBCD9; 
+       margin-top: 30px;}
+
+#activities span{
+    font-weight: 600;}
+
+/*  MEDIA QUERIES  */
+
+@media (max-width: 930px) {
+    #activities h2 {
+        font-size: 25px;
+    }
 }
-    
-    
+
+@media (max-width: 375px) {
+    #activities img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    #atv-img {
+        margin-bottom: 20px;
+    }
+    #activities h1{
+        text-align: left;}
+}
+
+@media (max-width: 384px) {
+    #wildlife-img {
+        margin-bottom: 20px;
+    }
+    #kayak-img{
+        margin-bottom: 20px;}
+}
+
+/*    ABOUT    */
+#about{
+    background-color: #fbfbfc;
+}
+
+/*    CONTACT    */
+
+
+form button{
+    margin-top: 10px;}
+
+iframe{
+    margin-bottom: 20px;}
+
 /*    FOOTER    */
 
-#footer h4{
-    font-size: 20px;}
-
-/*  MEDIA QUERIES  */  
-
-@media (max-width: 930px){
-   #footer h4{
-    font-size: 16px;} 
+#footer h4 {
+    font-size: 20px;
 }
+
+#footer ul{
+    padding-left: 0px;}
+
+#footer li{
+    margin-bottom: 0px;}
+
+#footer p{
+    margin-bottom: 0px;}
+
+ #footer h4{
+    text-align: center;}
+
+#margin-left{
+    margin-left: 30px;}
+
+
+/*  MEDIA QUERIES  */
+
+@media (max-width: 930px) {
+    #footer h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 414px) {
+    #margin-left {
+        margin-left: 0px;
+    }
+    #footer h4{
+        text-align: left;}
+    
+     .footer-paragraph{
+        margin-bottom: 20px;}
+    }
